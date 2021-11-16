@@ -1,5 +1,15 @@
 .card{
-
     min-height: 335px;
     min-width: 288px;
+    max-height: 380px;
+    max-width: 320px;
+
+    img{
+        min-width: 150px;
+        min-height: 200px;
+    }
+
+    .card-text{
+        font-size: 0.9em;
+    }
 }

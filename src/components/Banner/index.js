@@ -1,7 +1,7 @@
 import './style.scss';
-import img1 from '../../images/artificial-intelligence-ge7eefe2ac_1920.jpg'
-import img2 from '../../images/laptop-gce52d721e_1920.jpg'
-import img3 from '../../images/technology-g708bf05b9_1920.jpg'
+import img1 from '../../images/to-do-app.jpg'
+import img2 from '../../images/cadastre-seu-carro.jpg'
+import img3 from '../../images/primeiro-site-react.jpg'
 import Cards from '../Cards'
 
 const Banner = () => {
@@ -9,20 +9,20 @@ const Banner = () => {
     const projetos = [
         {
             img: img1,
-            titulo: "Projeto 1",
-            descricao: "Lorem ipsum",
+            titulo: "To Do App",
+            descricao: "Projeto de lista de tarefas desenvolvido durante o curso Certified Tech Developer da Digital House.",
             link: "https://github.com/gSantosP/ToDo"
         },
         {
             img: img2,
-            titulo: "Projeto 2",
-            descricao: "Lorem ipsum",
+            titulo: "Cadastre Seu Carro",
+            descricao: "Projeto para criação de cards de carros desenvolvido durante o curso Certified Tech Developer da Digital House.",
             link: "https://github.com/HenriqueTebet/projetoFE2"
         },
         {
             img: img3,
-            titulo: "Projeto 3",
-            descricao: "Lorem ipsum",
+            titulo: "Primeiro Site React",
+            descricao: "Meu primeiro site com React desenvolvido durante o curso Certified Tech Developer da Digital House.",
             link: "https://github.com/HenriqueTebet/ReactApp"
         }
     ]
