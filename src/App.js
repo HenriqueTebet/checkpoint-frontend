@@ -5,9 +5,6 @@ import Footer from './components/Footer';
 import './App.scss';
 
 export default class App extends Component{
-  constructor(){
-    super();
-  }
 
   nomePortfolio = 'Henrique Tebet';
 
@@ -16,7 +13,6 @@ export default class App extends Component{
       <>
       <Header nomePortfolio={this.nomePortfolio}/>
       <Banner/>
-
       <Footer/>
       </>
     )

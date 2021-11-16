@@ -5,7 +5,7 @@ const Header = ({nomePortfolio}) => {
     return (
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">{nomePortfolio}</a>
+                <a class="navbar-brand" href="#navbarsExample03">{nomePortfolio}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -13,16 +13,16 @@ const Header = ({nomePortfolio}) => {
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#navbarsExample03">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Apresentação</a>
+                            <a class="nav-link" href="#apresentacao">Apresentação</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projetos</a>
+                            <a class="nav-link" href="#projetos">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#footer">Contato</a>
                         </li>
                     </ul>
                 </div>
