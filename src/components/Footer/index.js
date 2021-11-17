@@ -5,29 +5,35 @@ import icon3 from '../../images/email.png'
 
 
 const Footer = (temaEscuro) => {
-    
-    return (
-      <>
-        <footer id="footer" className={`d-flex flex-wrap justify-content-between py-0 border-top text-${temaEscuro ? 'light' : 'dark'} bg-${temaEscuro ? 'dark' : 'light'}`}>
 
-      <div className="container-md d-left my-3">
-        <a href="https://github.com/HenriqueTebet" alt= "github" className="me-3">
-        <img src={icon1} alt="github" className="me-2"/></a> 
-   
-        <a href="https://www.linkedin.com/in/henrique-tebet-31bb5315b/" alt="linkedin">
-        <img src={icon2} alt="linkedin" className="me-3"/></a> 
-      
-        <a href = "mailto: henrique.empresa53@outlook.com">
-        <img src={icon3} alt="email" className="me-3"/></a>
-     
+  return (
+    <>
+      <footer id="footer" className={`d-flex flex-wrap justify-content-between py-0 border-top text-${temaEscuro ? 'light' : 'dark'} bg-${temaEscuro ? 'dark' : 'light'}`}>
+
+        <div className="container-md d-left my-3">
+          <a href="https://github.com/HenriqueTebet" alt="github" className="me-3">
+            <img src={icon1} alt="github" className="me-2" /></a>
+            <a href="https://iconscout.com/icons/github">Github Icon</a> by <a href="https://iconscout.com/contributors/unicons">Unicons Font</a> on <a href="https://iconscout.com">Iconscout</a>
+
+          <a href="https://www.linkedin.com/in/henrique-tebet-31bb5315b/" alt="linkedin">
+            <img src={icon2} alt="linkedin" className="me-3" /></a>
+            <a href="https://iconscout.com/icons/linkedin">Linkedin Icon</a> by <a href="https://iconscout.com/contributors/unicons">Unicons Font</a>
+
+          <a href="mailto: henrique.empresa53@outlook.com">
+            <img src={icon3} alt="email" className="me-3" /></a>
+            <a href="https://iconscout.com/icons/email">Email Icon</a> by <a href="https://iconscout.com/contributors/google-inc">Google Inc.</a>
+
         </div>
         <div className="container-md my-1">
-        <p className="d-flex">&copy; 2021 - Henrique Tebet</p>
+          <p className="d-flex">&copy; 2021 - Henrique Tebet</p>
+          
+          
+          
         </div>
-  
-    </footer>
+
+      </footer>
     </>
-    )
-    }
-   
-    export default Footer;
+  )
+}
+
+export default Footer;

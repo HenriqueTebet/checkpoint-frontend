@@ -35,7 +35,7 @@ const Banner = () => {
                 <p>Estudante do Certified Tech Developer e programador em formação com experiência de 6 meses.</p>
             </div>
             <div className="my-5">
-                <ul className="d-flex align-items-center" id="projetos">
+                <ul className="d-flex align-items-center flex-wrap" id="projetos">
                     {projetos.map((p, i) => {
                         console.log(p)
                         return <li key={i} ><Cards projeto={p} /></li>
